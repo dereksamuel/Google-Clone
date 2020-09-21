@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pugs</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      padding: 0;
+    }
+    main figure {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      width: 100vw;
+      object-fit: cover;
+      height: 100vh;
+    }
+    main figure img {
+      width: 100vw;
+      object-fit: cover;
+      height: 100vh;
+    }
+    .description {
+      padding: 15px;
+      background-color: rgba(0, 0, 0, 0.521);
+      position: absolute;
+      color: white;
+      font-size: large;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section>
+      <figure>
+        <img
+          onload="alert('CARGUÉ')"
+          src="pug-big.jpg"
+          alt="Pug1"
+        />
+        <figcaption class="description">Is an image of dog</figcaption>
+      </figure>
+    </section>
+  </main>
+</body>
+</html>
